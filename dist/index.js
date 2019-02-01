@@ -1524,7 +1524,8 @@ var DropzoneDialog = function (_React$Component) {
                             onDrop: this.onDrop.bind(this),
                             onDropRejected: this.onDropRejected.bind(this),
                             onDelete: this.onDelete.bind(this),
-                            clearOnUnmount: this.props.clearOnUnmount
+                            clearOnUnmount: this.props.clearOnUnmount,
+                            classes: this.props.classes
                         })
                     ),
                     React__default.createElement(
